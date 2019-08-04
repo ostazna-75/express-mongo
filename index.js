@@ -11,7 +11,7 @@ const port = 3000;
 
 // déclarer une variable appelé counter
 //notre mini base de donnée
-let counter = 0;
+//let counter = 0;
 
 const Counter = mongoose.model("Counter", {
   name: "",
@@ -70,5 +70,5 @@ app.post("/decrement", async (req, res) => {
 
 //écouter un port
 app.listen(port, () => {
-  console.log("Serer has started");
+  console.log("Server has started! hey Users dont worry");
 });
